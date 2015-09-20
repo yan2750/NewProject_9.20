@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    NSLog(@"用来测试github的使用__________________9.20");
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
