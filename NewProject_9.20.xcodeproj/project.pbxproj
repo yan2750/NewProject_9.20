@@ -15,6 +15,12 @@
 		6568DA1E1BAEED7A005DF5FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6568DA1D1BAEED7A005DF5FE /* Images.xcassets */; };
 		6568DA211BAEED7A005DF5FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6568DA1F1BAEED7A005DF5FE /* LaunchScreen.xib */; };
 		6568DA2D1BAEED7A005DF5FE /* NewProject_9_20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA2C1BAEED7A005DF5FE /* NewProject_9_20Tests.m */; };
+		65A944E01BCBA4650071FEAB /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A944DF1BCBA4650071FEAB /* LoadingView.m */; settings = {ASSET_TAGS = (); }; };
+		65A944E51BCBAB770071FEAB /* whiteCall.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E31BCBAB770071FEAB /* whiteCall.png */; settings = {ASSET_TAGS = (); }; };
+		65A944EA1BCBBCA60071FEAB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E81BCBBCA60071FEAB /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E91BCBBCA60071FEAB /* blueCall.jpg */; settings = {ASSET_TAGS = (); }; };
+		65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,13 @@
 		6568DA261BAEED7A005DF5FE /* NewProject_9.20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProject_9.20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6568DA2B1BAEED7A005DF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6568DA2C1BAEED7A005DF5FE /* NewProject_9_20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewProject_9_20Tests.m; sourceTree = "<group>"; };
+		65A944DE1BCBA4650071FEAB /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		65A944DF1BCBA4650071FEAB /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		65A944E31BCBAB770071FEAB /* whiteCall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteCall.png; path = Img/whiteCall.png; sourceTree = SOURCE_ROOT; };
+		65A944E81BCBBCA60071FEAB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Img/1.png; sourceTree = SOURCE_ROOT; };
+		65A944E91BCBBCA60071FEAB /* blueCall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueCall.jpg; path = Img/blueCall.jpg; sourceTree = SOURCE_ROOT; };
+		65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow_highlight@2x.png"; path = "Img/pull_refresh_arrow_highlight@2x.png"; sourceTree = SOURCE_ROOT; };
+		65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow@2x.png"; path = "Img/pull_refresh_arrow@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +96,14 @@
 		6568DA0C1BAEED7A005DF5FE /* NewProject_9.20 */ = {
 			isa = PBXGroup;
 			children = (
+				65A944DD1BCB9FED0071FEAB /* New Group */,
 				6568DA111BAEED7A005DF5FE /* AppDelegate.h */,
 				6568DA121BAEED7A005DF5FE /* AppDelegate.m */,
 				6568DA171BAEED7A005DF5FE /* ViewController.h */,
 				6568DA181BAEED7A005DF5FE /* ViewController.m */,
 				6568DA1A1BAEED7A005DF5FE /* Main.storyboard */,
 				6568DA1D1BAEED7A005DF5FE /* Images.xcassets */,
+				65A944E11BCBAAE70071FEAB /* Img */,
 				6568DA1F1BAEED7A005DF5FE /* LaunchScreen.xib */,
 				6568DA141BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld */,
 				6568DA0D1BAEED7A005DF5FE /* Supporting Files */,
@@ -120,6 +135,27 @@
 				6568DA2B1BAEED7A005DF5FE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65A944DD1BCB9FED0071FEAB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				65A944DE1BCBA4650071FEAB /* LoadingView.h */,
+				65A944DF1BCBA4650071FEAB /* LoadingView.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		65A944E11BCBAAE70071FEAB /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */,
+				65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */,
+				65A944E81BCBBCA60071FEAB /* 1.png */,
+				65A944E91BCBBCA60071FEAB /* blueCall.jpg */,
+				65A944E31BCBAB770071FEAB /* whiteCall.png */,
+			);
+			name = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +241,11 @@
 				6568DA1C1BAEED7A005DF5FE /* Main.storyboard in Resources */,
 				6568DA211BAEED7A005DF5FE /* LaunchScreen.xib in Resources */,
 				6568DA1E1BAEED7A005DF5FE /* Images.xcassets in Resources */,
+				65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */,
+				65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */,
+				65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */,
+				65A944EA1BCBBCA60071FEAB /* 1.png in Resources */,
+				65A944E51BCBAB770071FEAB /* whiteCall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6568DA161BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld in Sources */,
+				65A944E01BCBA4650071FEAB /* LoadingView.m in Sources */,
 				6568DA131BAEED7A005DF5FE /* AppDelegate.m in Sources */,
 				6568DA191BAEED7A005DF5FE /* ViewController.m in Sources */,
 				6568DA101BAEED7A005DF5FE /* main.m in Sources */,
@@ -420,6 +462,7 @@
 				6568DA321BAEED7A005DF5FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6568DA331BAEED7A005DF5FE /* Build configuration list for PBXNativeTarget "NewProject_9.20Tests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +471,7 @@
 				6568DA351BAEED7A005DF5FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
