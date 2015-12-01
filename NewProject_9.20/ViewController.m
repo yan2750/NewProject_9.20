@@ -9,17 +9,26 @@
 #import "ViewController.h"
 #import "RegistrationView.h"
 
+<<<<<<< Updated upstream
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *whiteImgV;
 @property (nonatomic, strong) UIImageView *blueImgV;
+=======
+
+@interface ViewController () {
+    NSUserDefaults *standUser;
+}
+>>>>>>> Stashed changes
 
 @property (nonatomic, strong) CAShapeLayer *maskLayerUp;
 @end
 
 @implementation ViewController
 
+//KVO
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< Updated upstream
     
     
     //[self creatUI];
@@ -64,6 +73,37 @@
                                                         clockwise:YES].CGPath;
     [mask addSublayer:self.maskLayerUp];
     return mask;
+=======
+    NSLog(@"用来测试github的使用__________________9.20");
+    UITextField *testField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    testField.delegate = self;
+    testField.backgroundColor = [UIColor redColor];
+    [self.view addSubview:testField];
+    standUser = [NSUserDefaults standardUserDefaults];
+    NSLog(@"值是多少 = %@",[standUser objectForKey:@"key"]);
+ //   [standUser synchronize];
+    
+//    UIButton *clickBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [clickBtn setTitle:@"确定" forState:UIControlStateNormal];
+//    clickBtn.frame = CGRectMake(110, 250, 75, 70);
+//    [clickBtn setImage:[UIImage imageNamed:@"Icon_succeed.png"] forState:UIControlStateNormal];
+//    [clickBtn addTarget:self action:@selector(clickBtnMethod) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:clickBtn];
+    
+    
 }
 
+- (void)clickBtnMethod {
+    
+>>>>>>> Stashed changes
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [standUser setObject:textField.text forKey:@"key"];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [standUser setObject:textField.text forKey:@"key"];
+    return YES;
+}
 @end

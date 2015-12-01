@@ -20,15 +20,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+<<<<<<< Updated upstream
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self creatUI];
     [self.window makeKeyAndVisible];
+=======
+>>>>>>> Stashed changes
     
     return YES;
 }
 
+<<<<<<< Updated upstream
 - (void)creatUI {
     WaterFallFlowViewController *waterFallVC = [[WaterFallFlowViewController alloc] init];
     UINavigationController *waterFallNav = [[UINavigationController alloc] initWithRootViewController:waterFallVC];
@@ -47,6 +51,9 @@
     
     self.window.rootViewController = tabController;
 }
+=======
+//- (void)
+>>>>>>> Stashed changes
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -66,6 +73,11 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
+/**
+ *  当应用程序要终止的时候，保存数据到持久层
+ *
+ *  @param application
+ */
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
@@ -78,6 +90,11 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+/**
+ *  应用程序沙箱下的Documents目录路径
+ *
+ *  @return
+ */
 - (NSURL *)applicationDocumentsDirectory {
     // The directory the application uses to store the Core Data store file. This code uses a directory named "mingyue.yan.NewProject_9_20" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
@@ -121,7 +138,11 @@
     return _persistentStoreCoordinator;
 }
 
-
+/**
+ *  初始化后，必须设置持久化存储助理
+ *
+ *  @return 数据上下文
+ */
 - (NSManagedObjectContext *)managedObjectContext {
     // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.)
     if (_managedObjectContext != nil) {
@@ -139,6 +160,9 @@
 
 #pragma mark - Core Data Saving support
 
+/**
+ *  保存数据到持久层（数据库）
+ */
 - (void)saveContext {
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
