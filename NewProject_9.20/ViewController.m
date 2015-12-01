@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RegistrationView.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *whiteImgV;
@@ -19,8 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatUI];
-    [self startGreenHeadAnimation];
+    
+    
+    //[self creatUI];
+    //[self startGreenHeadAnimation];
+    
+
 }
 
 - (void)creatUI {

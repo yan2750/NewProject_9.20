@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Masonry.h"
+#import "WaterFallFlowViewController.h"
+#import "ChatViewController.h"
+#import "SettingViewControler.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +20,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self creatUI];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void)creatUI {
+    WaterFallFlowViewController *waterFallVC = [[WaterFallFlowViewController alloc] init];
+    UINavigationController *waterFallNav = [[UINavigationController alloc] initWithRootViewController:waterFallVC];
+    waterFallNav.tabBarItem.title = @"瀑布流";
+    
+    ChatViewController *chatVC = [[ChatViewController alloc] init];
+    UINavigationController *chatNav = [[UINavigationController alloc] initWithRootViewController:chatVC];
+    chatNav.tabBarItem.title = @"聊天";
+    
+    SettingViewControler *settingVC = [[SettingViewControler alloc] init];
+    UINavigationController *settingNav = [[UINavigationController alloc] initWithRootViewController:settingVC];
+    settingNav.tabBarItem.title = @"设置";
+    
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    tabController.viewControllers = @[waterFallNav,chatNav,settingNav];
+    
+    self.window.rootViewController = tabController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

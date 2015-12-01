@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65409B3B1BF32BCA005E2F2C /* WaterFallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65409B3A1BF32BCA005E2F2C /* WaterFallFlowViewController.m */; };
+		65409B3E1BF32BE7005E2F2C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65409B3D1BF32BE7005E2F2C /* LoginViewController.m */; };
 		6568DA101BAEED7A005DF5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA0F1BAEED7A005DF5FE /* main.m */; };
 		6568DA131BAEED7A005DF5FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA121BAEED7A005DF5FE /* AppDelegate.m */; };
 		6568DA161BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA141BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld */; };
 		6568DA191BAEED7A005DF5FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA181BAEED7A005DF5FE /* ViewController.m */; };
 		6568DA1C1BAEED7A005DF5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6568DA1A1BAEED7A005DF5FE /* Main.storyboard */; };
 		6568DA1E1BAEED7A005DF5FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6568DA1D1BAEED7A005DF5FE /* Images.xcassets */; };
-		6568DA211BAEED7A005DF5FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6568DA1F1BAEED7A005DF5FE /* LaunchScreen.xib */; };
 		6568DA2D1BAEED7A005DF5FE /* NewProject_9_20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6568DA2C1BAEED7A005DF5FE /* NewProject_9_20Tests.m */; };
-		65A944E01BCBA4650071FEAB /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A944DF1BCBA4650071FEAB /* LoadingView.m */; settings = {ASSET_TAGS = (); }; };
-		65A944E51BCBAB770071FEAB /* whiteCall.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E31BCBAB770071FEAB /* whiteCall.png */; settings = {ASSET_TAGS = (); }; };
-		65A944EA1BCBBCA60071FEAB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E81BCBBCA60071FEAB /* 1.png */; settings = {ASSET_TAGS = (); }; };
-		65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E91BCBBCA60071FEAB /* blueCall.jpg */; settings = {ASSET_TAGS = (); }; };
-		65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
-		65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */; settings = {ASSET_TAGS = (); }; };
+		65A944E01BCBA4650071FEAB /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A944DF1BCBA4650071FEAB /* LoadingView.m */; };
+		65A944E51BCBAB770071FEAB /* whiteCall.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E31BCBAB770071FEAB /* whiteCall.png */; };
+		65A944EA1BCBBCA60071FEAB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E81BCBBCA60071FEAB /* 1.png */; };
+		65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E91BCBBCA60071FEAB /* blueCall.jpg */; };
+		65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */; };
+		65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */; };
+		65D8FF8B1BF3273B00211001 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D8FF8A1BF3273B00211001 /* LoginManager.m */; };
+		65E3A3A01C0D700D000CDE67 /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A39F1C0D700D000CDE67 /* RegistrationView.m */; };
+		65E3A3C21C0D70E3000CDE67 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 65E3A3A81C0D70E3000CDE67 /* File */; };
+		65E3A3C31C0D70E3000CDE67 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3AA1C0D70E3000CDE67 /* MASCompositeConstraint.m */; };
+		65E3A3C41C0D70E3000CDE67 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3AC1C0D70E3000CDE67 /* MASConstraint.m */; };
+		65E3A3C51C0D70E3000CDE67 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3AF1C0D70E3000CDE67 /* MASConstraintMaker.m */; };
+		65E3A3C61C0D70E3000CDE67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3B11C0D70E3000CDE67 /* MASLayoutConstraint.m */; };
+		65E3A3C71C0D70E3000CDE67 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3B51C0D70E3000CDE67 /* MASViewAttribute.m */; };
+		65E3A3C81C0D70E3000CDE67 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3B71C0D70E3000CDE67 /* MASViewConstraint.m */; };
+		65E3A3C91C0D70E3000CDE67 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3B91C0D70E3000CDE67 /* NSArray+MASAdditions.m */; };
+		65E3A3CA1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3BC1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		65E3A3CB1C0D70E3000CDE67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3BE1C0D70E3000CDE67 /* View+MASAdditions.m */; };
+		65E3A3CC1C0D70E3000CDE67 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3C11C0D70E3000CDE67 /* ViewController+MASAdditions.m */; };
+		65E3A3CF1C0D8ABF000CDE67 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3CE1C0D8ABF000CDE67 /* ChatViewController.m */; };
+		65E3A3D21C0D8B5C000CDE67 /* SettingViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3D11C0D8B5C000CDE67 /* SettingViewControler.m */; };
+		65E3A3D51C0D98B9000CDE67 /* WaterFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3D41C0D98B9000CDE67 /* WaterFallView.m */; };
+		65E3A3DB1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A3DA1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65409B391BF32BCA005E2F2C /* WaterFallFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowViewController.h; sourceTree = "<group>"; };
+		65409B3A1BF32BCA005E2F2C /* WaterFallFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowViewController.m; sourceTree = "<group>"; };
+		65409B3C1BF32BE7005E2F2C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		65409B3D1BF32BE7005E2F2C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6568DA0A1BAEED7A005DF5FE /* NewProject_9.20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject_9.20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6568DA0E1BAEED7A005DF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6568DA0F1BAEED7A005DF5FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,7 +66,6 @@
 		6568DA181BAEED7A005DF5FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6568DA1B1BAEED7A005DF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6568DA1D1BAEED7A005DF5FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6568DA201BAEED7A005DF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6568DA261BAEED7A005DF5FE /* NewProject_9.20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProject_9.20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6568DA2B1BAEED7A005DF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6568DA2C1BAEED7A005DF5FE /* NewProject_9_20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewProject_9_20Tests.m; sourceTree = "<group>"; };
@@ -55,6 +76,45 @@
 		65A944E91BCBBCA60071FEAB /* blueCall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueCall.jpg; path = Img/blueCall.jpg; sourceTree = SOURCE_ROOT; };
 		65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow_highlight@2x.png"; path = "Img/pull_refresh_arrow_highlight@2x.png"; sourceTree = SOURCE_ROOT; };
 		65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow@2x.png"; path = "Img/pull_refresh_arrow@2x.png"; sourceTree = SOURCE_ROOT; };
+		65D8FF891BF3273B00211001 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginManager.h; path = Model/LoginManager.h; sourceTree = "<group>"; };
+		65D8FF8A1BF3273B00211001 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginManager.m; path = Model/LoginManager.m; sourceTree = "<group>"; };
+		65E3A39E1C0D700D000CDE67 /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationView.h; path = View/RegistrationView.h; sourceTree = "<group>"; };
+		65E3A39F1C0D700D000CDE67 /* RegistrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationView.m; path = View/RegistrationView.m; sourceTree = "<group>"; };
+		65E3A3A81C0D70E3000CDE67 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File; path = Vonder/Masonry/File; sourceTree = "<group>"; };
+		65E3A3A91C0D70E3000CDE67 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Vonder/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		65E3A3AA1C0D70E3000CDE67 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Vonder/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		65E3A3AB1C0D70E3000CDE67 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Vonder/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		65E3A3AC1C0D70E3000CDE67 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Vonder/Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		65E3A3AD1C0D70E3000CDE67 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Vonder/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		65E3A3AE1C0D70E3000CDE67 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Vonder/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		65E3A3AF1C0D70E3000CDE67 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Vonder/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		65E3A3B01C0D70E3000CDE67 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Vonder/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		65E3A3B11C0D70E3000CDE67 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Vonder/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		65E3A3B21C0D70E3000CDE67 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Vonder/Masonry/Masonry.h; sourceTree = "<group>"; };
+		65E3A3B31C0D70E3000CDE67 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Vonder/Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		65E3A3B41C0D70E3000CDE67 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Vonder/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		65E3A3B51C0D70E3000CDE67 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Vonder/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		65E3A3B61C0D70E3000CDE67 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Vonder/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		65E3A3B71C0D70E3000CDE67 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Vonder/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		65E3A3B81C0D70E3000CDE67 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Vonder/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		65E3A3B91C0D70E3000CDE67 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Vonder/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		65E3A3BA1C0D70E3000CDE67 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Vonder/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		65E3A3BB1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Vonder/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		65E3A3BC1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Vonder/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		65E3A3BD1C0D70E3000CDE67 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Vonder/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		65E3A3BE1C0D70E3000CDE67 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Vonder/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		65E3A3BF1C0D70E3000CDE67 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Vonder/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		65E3A3C01C0D70E3000CDE67 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Vonder/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		65E3A3C11C0D70E3000CDE67 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Vonder/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		65E3A3CD1C0D8ABF000CDE67 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ViewController/ChatViewController.h; sourceTree = "<group>"; };
+		65E3A3CE1C0D8ABF000CDE67 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ViewController/ChatViewController.m; sourceTree = "<group>"; };
+		65E3A3D01C0D8B5C000CDE67 /* SettingViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewControler.h; path = ViewController/SettingViewControler.h; sourceTree = "<group>"; };
+		65E3A3D11C0D8B5C000CDE67 /* SettingViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewControler.m; path = ViewController/SettingViewControler.m; sourceTree = "<group>"; };
+		65E3A3D31C0D98B9000CDE67 /* WaterFallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaterFallView.h; path = View/WaterFallView.h; sourceTree = "<group>"; };
+		65E3A3D41C0D98B9000CDE67 /* WaterFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaterFallView.m; path = View/WaterFallView.m; sourceTree = "<group>"; };
+		65E3A3D91C0D9FFE000CDE67 /* waterFallCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = waterFallCollectionViewCell.h; path = cell/waterFallCollectionViewCell.h; sourceTree = "<group>"; };
+		65E3A3DA1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = waterFallCollectionViewCell.m; path = cell/waterFallCollectionViewCell.m; sourceTree = "<group>"; };
+		65E3A3E11C0DA3B8000CDE67 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDefine.h; path = Common/CommonDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +156,12 @@
 		6568DA0C1BAEED7A005DF5FE /* NewProject_9.20 */ = {
 			isa = PBXGroup;
 			children = (
+				65E3A3DC1C0DA26B000CDE67 /* Common */,
+				65E3A3D81C0D9FC1000CDE67 /* cell */,
+				65E3A3A21C0D7032000CDE67 /* View */,
+				65E3A3A11C0D701C000CDE67 /* Vonder */,
+				65D8FF881BF325AF00211001 /* ViewController */,
+				65D8FF861BF3256900211001 /* Model */,
 				65A944DD1BCB9FED0071FEAB /* New Group */,
 				6568DA111BAEED7A005DF5FE /* AppDelegate.h */,
 				6568DA121BAEED7A005DF5FE /* AppDelegate.m */,
@@ -104,7 +170,6 @@
 				6568DA1A1BAEED7A005DF5FE /* Main.storyboard */,
 				6568DA1D1BAEED7A005DF5FE /* Images.xcassets */,
 				65A944E11BCBAAE70071FEAB /* Img */,
-				6568DA1F1BAEED7A005DF5FE /* LaunchScreen.xib */,
 				6568DA141BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld */,
 				6568DA0D1BAEED7A005DF5FE /* Supporting Files */,
 			);
@@ -156,6 +221,99 @@
 				65A944E31BCBAB770071FEAB /* whiteCall.png */,
 			);
 			name = Img;
+			sourceTree = "<group>";
+		};
+		65D8FF861BF3256900211001 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65D8FF891BF3273B00211001 /* LoginManager.h */,
+				65D8FF8A1BF3273B00211001 /* LoginManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65D8FF881BF325AF00211001 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65409B391BF32BCA005E2F2C /* WaterFallFlowViewController.h */,
+				65409B3A1BF32BCA005E2F2C /* WaterFallFlowViewController.m */,
+				65409B3C1BF32BE7005E2F2C /* LoginViewController.h */,
+				65409B3D1BF32BE7005E2F2C /* LoginViewController.m */,
+				65E3A3CD1C0D8ABF000CDE67 /* ChatViewController.h */,
+				65E3A3CE1C0D8ABF000CDE67 /* ChatViewController.m */,
+				65E3A3D01C0D8B5C000CDE67 /* SettingViewControler.h */,
+				65E3A3D11C0D8B5C000CDE67 /* SettingViewControler.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		65E3A3A11C0D701C000CDE67 /* Vonder */ = {
+			isa = PBXGroup;
+			children = (
+				65E3A3A71C0D70BC000CDE67 /* Masonry */,
+			);
+			name = Vonder;
+			sourceTree = "<group>";
+		};
+		65E3A3A21C0D7032000CDE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65E3A39E1C0D700D000CDE67 /* RegistrationView.h */,
+				65E3A39F1C0D700D000CDE67 /* RegistrationView.m */,
+				65E3A3D31C0D98B9000CDE67 /* WaterFallView.h */,
+				65E3A3D41C0D98B9000CDE67 /* WaterFallView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		65E3A3A71C0D70BC000CDE67 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				65E3A3A81C0D70E3000CDE67 /* File */,
+				65E3A3A91C0D70E3000CDE67 /* MASCompositeConstraint.h */,
+				65E3A3AA1C0D70E3000CDE67 /* MASCompositeConstraint.m */,
+				65E3A3AB1C0D70E3000CDE67 /* MASConstraint.h */,
+				65E3A3AC1C0D70E3000CDE67 /* MASConstraint.m */,
+				65E3A3AD1C0D70E3000CDE67 /* MASConstraint+Private.h */,
+				65E3A3AE1C0D70E3000CDE67 /* MASConstraintMaker.h */,
+				65E3A3AF1C0D70E3000CDE67 /* MASConstraintMaker.m */,
+				65E3A3B01C0D70E3000CDE67 /* MASLayoutConstraint.h */,
+				65E3A3B11C0D70E3000CDE67 /* MASLayoutConstraint.m */,
+				65E3A3B21C0D70E3000CDE67 /* Masonry.h */,
+				65E3A3B31C0D70E3000CDE67 /* MASUtilities.h */,
+				65E3A3B41C0D70E3000CDE67 /* MASViewAttribute.h */,
+				65E3A3B51C0D70E3000CDE67 /* MASViewAttribute.m */,
+				65E3A3B61C0D70E3000CDE67 /* MASViewConstraint.h */,
+				65E3A3B71C0D70E3000CDE67 /* MASViewConstraint.m */,
+				65E3A3B81C0D70E3000CDE67 /* NSArray+MASAdditions.h */,
+				65E3A3B91C0D70E3000CDE67 /* NSArray+MASAdditions.m */,
+				65E3A3BA1C0D70E3000CDE67 /* NSArray+MASShorthandAdditions.h */,
+				65E3A3BB1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				65E3A3BC1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				65E3A3BD1C0D70E3000CDE67 /* View+MASAdditions.h */,
+				65E3A3BE1C0D70E3000CDE67 /* View+MASAdditions.m */,
+				65E3A3BF1C0D70E3000CDE67 /* View+MASShorthandAdditions.h */,
+				65E3A3C01C0D70E3000CDE67 /* ViewController+MASAdditions.h */,
+				65E3A3C11C0D70E3000CDE67 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			sourceTree = "<group>";
+		};
+		65E3A3D81C0D9FC1000CDE67 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				65E3A3D91C0D9FFE000CDE67 /* waterFallCollectionViewCell.h */,
+				65E3A3DA1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		65E3A3DC1C0DA26B000CDE67 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				65E3A3E11C0DA3B8000CDE67 /* CommonDefine.h */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,13 +397,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6568DA1C1BAEED7A005DF5FE /* Main.storyboard in Resources */,
-				6568DA211BAEED7A005DF5FE /* LaunchScreen.xib in Resources */,
 				6568DA1E1BAEED7A005DF5FE /* Images.xcassets in Resources */,
 				65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */,
 				65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */,
 				65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */,
 				65A944EA1BCBBCA60071FEAB /* 1.png in Resources */,
 				65A944E51BCBAB770071FEAB /* whiteCall.png in Resources */,
+				65E3A3C21C0D70E3000CDE67 /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +421,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E3A3C81C0D70E3000CDE67 /* MASViewConstraint.m in Sources */,
+				65409B3E1BF32BE7005E2F2C /* LoginViewController.m in Sources */,
+				65E3A3CF1C0D8ABF000CDE67 /* ChatViewController.m in Sources */,
+				65E3A3C71C0D70E3000CDE67 /* MASViewAttribute.m in Sources */,
 				6568DA161BAEED7A005DF5FE /* NewProject_9_20.xcdatamodeld in Sources */,
 				65A944E01BCBA4650071FEAB /* LoadingView.m in Sources */,
+				65E3A3A01C0D700D000CDE67 /* RegistrationView.m in Sources */,
+				65E3A3C31C0D70E3000CDE67 /* MASCompositeConstraint.m in Sources */,
+				65E3A3C51C0D70E3000CDE67 /* MASConstraintMaker.m in Sources */,
+				65E3A3CB1C0D70E3000CDE67 /* View+MASAdditions.m in Sources */,
+				65E3A3C61C0D70E3000CDE67 /* MASLayoutConstraint.m in Sources */,
+				65E3A3D51C0D98B9000CDE67 /* WaterFallView.m in Sources */,
+				65E3A3CC1C0D70E3000CDE67 /* ViewController+MASAdditions.m in Sources */,
+				65E3A3C41C0D70E3000CDE67 /* MASConstraint.m in Sources */,
+				65E3A3D21C0D8B5C000CDE67 /* SettingViewControler.m in Sources */,
 				6568DA131BAEED7A005DF5FE /* AppDelegate.m in Sources */,
+				65D8FF8B1BF3273B00211001 /* LoginManager.m in Sources */,
+				65E3A3C91C0D70E3000CDE67 /* NSArray+MASAdditions.m in Sources */,
+				65E3A3CA1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				6568DA191BAEED7A005DF5FE /* ViewController.m in Sources */,
+				65409B3B1BF32BCA005E2F2C /* WaterFallFlowViewController.m in Sources */,
+				65E3A3DB1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m in Sources */,
 				6568DA101BAEED7A005DF5FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +472,6 @@
 				6568DA1B1BAEED7A005DF5FE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6568DA1F1BAEED7A005DF5FE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6568DA201BAEED7A005DF5FE /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
