@@ -9,6 +9,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< Updated upstream
             filePath = "NewProject_9.20/View/WaterFallView.m"
             timestampString = "470805327.818691"
             startingColumnNumber = "9223372036854775807"
@@ -32,6 +33,31 @@
             startingLineNumber = "91"
             endingLineNumber = "91"
             landmarkName = "-collectionView:cellForItemAtIndexPath:"
+=======
+            filePath = "NewProject_9.20/ViewController.m"
+            timestampString = "469805001.860435"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-textFieldDidEndEditing:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewProject_9.20/ViewController.m"
+            timestampString = "469805123.542646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-textFieldShouldReturn:"
+>>>>>>> Stashed changes
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
