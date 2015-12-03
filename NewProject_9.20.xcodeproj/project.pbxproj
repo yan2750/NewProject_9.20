@@ -22,6 +22,13 @@
 		65A944EB1BCBBCA60071FEAB /* blueCall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65A944E91BCBBCA60071FEAB /* blueCall.jpg */; };
 		65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */; };
 		65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */; };
+		65D4889B1C0FDA29001B4D60 /* waterFallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D4889A1C0FDA29001B4D60 /* waterFallCollectionViewCell.xib */; };
+		65D4889E1C101098001B4D60 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4889D1C101098001B4D60 /* CalculatorViewController.m */; };
+		65D488A11C101228001B4D60 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D488A01C101228001B4D60 /* ImageManager.m */; };
+		65D488A41C102A7D001B4D60 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D488A31C102A7D001B4D60 /* PhotosViewController.m */; };
+		65D488A71C104387001B4D60 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D488A61C104387001B4D60 /* CoreDataManager.m */; };
+		65D488B11C104C56001B4D60 /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D488AE1C104C56001B4D60 /* Photo+CoreDataProperties.m */; };
+		65D488B21C104C56001B4D60 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D488B01C104C56001B4D60 /* Photo.m */; };
 		65D8FF8B1BF3273B00211001 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D8FF8A1BF3273B00211001 /* LoginManager.m */; };
 		65E3A3A01C0D700D000CDE67 /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3A39F1C0D700D000CDE67 /* RegistrationView.m */; };
 		65E3A3C21C0D70E3000CDE67 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 65E3A3A81C0D70E3000CDE67 /* File */; };
@@ -76,6 +83,19 @@
 		65A944E91BCBBCA60071FEAB /* blueCall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueCall.jpg; path = Img/blueCall.jpg; sourceTree = SOURCE_ROOT; };
 		65A944EC1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow_highlight@2x.png"; path = "Img/pull_refresh_arrow_highlight@2x.png"; sourceTree = SOURCE_ROOT; };
 		65A944ED1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pull_refresh_arrow@2x.png"; path = "Img/pull_refresh_arrow@2x.png"; sourceTree = SOURCE_ROOT; };
+		65D4889A1C0FDA29001B4D60 /* waterFallCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waterFallCollectionViewCell.xib; sourceTree = "<group>"; };
+		65D4889C1C101098001B4D60 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorViewController.h; path = ViewController/CalculatorViewController.h; sourceTree = "<group>"; };
+		65D4889D1C101098001B4D60 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorViewController.m; path = ViewController/CalculatorViewController.m; sourceTree = "<group>"; };
+		65D4889F1C101228001B4D60 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageManager.h; path = Common/ImageManager.h; sourceTree = "<group>"; };
+		65D488A01C101228001B4D60 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageManager.m; path = Common/ImageManager.m; sourceTree = "<group>"; };
+		65D488A21C102A7D001B4D60 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		65D488A31C102A7D001B4D60 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		65D488A51C104387001B4D60 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = Common/CoreDataManager.h; sourceTree = "<group>"; };
+		65D488A61C104387001B4D60 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = Common/CoreDataManager.m; sourceTree = "<group>"; };
+		65D488AD1C104C56001B4D60 /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Photo+CoreDataProperties.h"; path = "Model/Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		65D488AE1C104C56001B4D60 /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Photo+CoreDataProperties.m"; path = "Model/Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		65D488AF1C104C56001B4D60 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = Model/Photo.h; sourceTree = "<group>"; };
+		65D488B01C104C56001B4D60 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = Model/Photo.m; sourceTree = "<group>"; };
 		65D8FF891BF3273B00211001 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginManager.h; path = Model/LoginManager.h; sourceTree = "<group>"; };
 		65D8FF8A1BF3273B00211001 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginManager.m; path = Model/LoginManager.m; sourceTree = "<group>"; };
 		65E3A39E1C0D700D000CDE67 /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationView.h; path = View/RegistrationView.h; sourceTree = "<group>"; };
@@ -228,6 +248,10 @@
 			children = (
 				65D8FF891BF3273B00211001 /* LoginManager.h */,
 				65D8FF8A1BF3273B00211001 /* LoginManager.m */,
+				65D488AD1C104C56001B4D60 /* Photo+CoreDataProperties.h */,
+				65D488AE1C104C56001B4D60 /* Photo+CoreDataProperties.m */,
+				65D488AF1C104C56001B4D60 /* Photo.h */,
+				65D488B01C104C56001B4D60 /* Photo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -243,6 +267,10 @@
 				65E3A3CE1C0D8ABF000CDE67 /* ChatViewController.m */,
 				65E3A3D01C0D8B5C000CDE67 /* SettingViewControler.h */,
 				65E3A3D11C0D8B5C000CDE67 /* SettingViewControler.m */,
+				65D4889C1C101098001B4D60 /* CalculatorViewController.h */,
+				65D4889D1C101098001B4D60 /* CalculatorViewController.m */,
+				65D488A21C102A7D001B4D60 /* PhotosViewController.h */,
+				65D488A31C102A7D001B4D60 /* PhotosViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -304,6 +332,7 @@
 			children = (
 				65E3A3D91C0D9FFE000CDE67 /* waterFallCollectionViewCell.h */,
 				65E3A3DA1C0D9FFE000CDE67 /* waterFallCollectionViewCell.m */,
+				65D4889A1C0FDA29001B4D60 /* waterFallCollectionViewCell.xib */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -312,6 +341,10 @@
 			isa = PBXGroup;
 			children = (
 				65E3A3E11C0DA3B8000CDE67 /* CommonDefine.h */,
+				65D4889F1C101228001B4D60 /* ImageManager.h */,
+				65D488A01C101228001B4D60 /* ImageManager.m */,
+				65D488A51C104387001B4D60 /* CoreDataManager.h */,
+				65D488A61C104387001B4D60 /* CoreDataManager.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -397,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6568DA1C1BAEED7A005DF5FE /* Main.storyboard in Resources */,
+				65D4889B1C0FDA29001B4D60 /* waterFallCollectionViewCell.xib in Resources */,
 				6568DA1E1BAEED7A005DF5FE /* Images.xcassets in Resources */,
 				65A944EF1BCBBFB50071FEAB /* pull_refresh_arrow@2x.png in Resources */,
 				65A944EE1BCBBFB50071FEAB /* pull_refresh_arrow_highlight@2x.png in Resources */,
@@ -431,14 +465,20 @@
 				65E3A3C31C0D70E3000CDE67 /* MASCompositeConstraint.m in Sources */,
 				65E3A3C51C0D70E3000CDE67 /* MASConstraintMaker.m in Sources */,
 				65E3A3CB1C0D70E3000CDE67 /* View+MASAdditions.m in Sources */,
+				65D488B11C104C56001B4D60 /* Photo+CoreDataProperties.m in Sources */,
 				65E3A3C61C0D70E3000CDE67 /* MASLayoutConstraint.m in Sources */,
+				65D488A41C102A7D001B4D60 /* PhotosViewController.m in Sources */,
 				65E3A3D51C0D98B9000CDE67 /* WaterFallView.m in Sources */,
 				65E3A3CC1C0D70E3000CDE67 /* ViewController+MASAdditions.m in Sources */,
 				65E3A3C41C0D70E3000CDE67 /* MASConstraint.m in Sources */,
+				65D488B21C104C56001B4D60 /* Photo.m in Sources */,
+				65D4889E1C101098001B4D60 /* CalculatorViewController.m in Sources */,
 				65E3A3D21C0D8B5C000CDE67 /* SettingViewControler.m in Sources */,
 				6568DA131BAEED7A005DF5FE /* AppDelegate.m in Sources */,
+				65D488A11C101228001B4D60 /* ImageManager.m in Sources */,
 				65D8FF8B1BF3273B00211001 /* LoginManager.m in Sources */,
 				65E3A3C91C0D70E3000CDE67 /* NSArray+MASAdditions.m in Sources */,
+				65D488A71C104387001B4D60 /* CoreDataManager.m in Sources */,
 				65E3A3CA1C0D70E3000CDE67 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				6568DA191BAEED7A005DF5FE /* ViewController.m in Sources */,
 				65409B3B1BF32BCA005E2F2C /* WaterFallFlowViewController.m in Sources */,
