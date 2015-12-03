@@ -13,4 +13,10 @@
 #define ScreenHeight        [UIScreen mainScreen].bounds.size.height
 #define ScreenWidth         [UIScreen mainScreen].bounds.size.width
 
+//日志方法名称
+#define LOG_METHOD_NAME     {NSLog(@"%@", NSStringFromSelector(_cmd));}
+//打印对象的类名，以及对象本身的地址
+#define LOG_OBJ_ADDRESS(obj) {NSLog(@"%@ : %p",NSStringFromClass([obj class]), obj);}
+//打印空行
+#define LOG_END  {NSLog(@"%@", @" ");}
 #endif /* CommonDefine_h */
