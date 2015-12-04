@@ -39,9 +39,9 @@
 
 -(IBAction)save:(UIButton *)sender
 {
-    NSManagedObject *object = [NSEntityDescription insertNewObjectForEntityForName:@"Province" inManagedObjectContext:self.appDelegate.managedObjectContext];
-    
-    //[object setValue:<#(nullable id)#> forKey:<#(nonnull NSString *)#>]
+    NSManagedObject *object = [NSEntityDescription insertNewObjectForEntityForName:@"Photos" inManagedObjectContext:self.appDelegate.managedObjectContext];
+    //[object setValue: forKey:]
+    //[object setValue: forKey:]
     /*
     [object setValue:citytext.text forKey:@"cityname"];
     [object setValue:provincetext.text forKey:@"provincename"];
@@ -50,4 +50,5 @@
      */
     
     
-}@end
+}
+@end
