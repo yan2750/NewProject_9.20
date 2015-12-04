@@ -41,7 +41,7 @@
 {
     NSManagedObject *object = [NSEntityDescription insertNewObjectForEntityForName:@"Province" inManagedObjectContext:self.appDelegate.managedObjectContext];
     
-    [object setValue:<#(nullable id)#> forKey:<#(nonnull NSString *)#>]
+    //[object setValue:<#(nullable id)#> forKey:<#(nonnull NSString *)#>]
     /*
     [object setValue:citytext.text forKey:@"cityname"];
     [object setValue:provincetext.text forKey:@"provincename"];

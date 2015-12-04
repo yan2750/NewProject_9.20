@@ -9,18 +9,14 @@
 #import "ViewController.h"
 #import "RegistrationView.h"
 
-<<<<<<< Updated upstream
-@interface ViewController ()
-@property (nonatomic, strong) UIImageView *whiteImgV;
-@property (nonatomic, strong) UIImageView *blueImgV;
-=======
-
 @interface ViewController () {
     NSUserDefaults *standUser;
 }
->>>>>>> Stashed changes
 
 @property (nonatomic, strong) CAShapeLayer *maskLayerUp;
+@property (nonatomic, strong) UIImageView *whiteImgV;
+@property (nonatomic, strong) UIImageView *blueImgV;
+
 @end
 
 @implementation ViewController
@@ -28,13 +24,9 @@
 //KVO
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< Updated upstream
-    
     
     //[self creatUI];
     //[self startGreenHeadAnimation];
-    
-
 }
 
 - (void)creatUI {
@@ -73,7 +65,7 @@
                                                         clockwise:YES].CGPath;
     [mask addSublayer:self.maskLayerUp];
     return mask;
-=======
+
     NSLog(@"用来测试github的使用__________________9.20");
     UITextField *testField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     testField.delegate = self;
@@ -95,7 +87,6 @@
 
 - (void)clickBtnMethod {
     
->>>>>>> Stashed changes
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {

@@ -4,12 +4,4 @@
         <attribute name="photoName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="photoTitle" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <elements>
-        <element name="Photo" positionX="-63" positionY="-18" width="128" height="75"/>
-    <entity name="ContactInfo" syncable="YES">
-        <attribute name="name" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-    </entity>
-    <elements>
-        <element name="ContactInfo" positionX="-63" positionY="-18" width="128" height="60"/>
-    </elements>
 </model>
